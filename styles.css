@@ -27,20 +27,33 @@
     color: rgb(213, 16, 16);
 }
 
-
+/*-------------------------------------------*/
 /*description layout*/
-.heading{
+.heading,
+.description {
     font-size: 32px;
     font-weight: bold;
     color: rgb(204, 255, 0);
     background-color: grey;
-    
+}
+
+.description{
+    text-align: center;
+}
+
+/*-------------------------------------------*/
 
 .textlayout{
     font-size: 22px;
     color:grey
 }
 
-.description{
-    text-align: center;
+.parent .child {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: beige;
+    color: black;
+
 }
+
+
